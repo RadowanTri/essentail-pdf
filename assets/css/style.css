@@ -847,13 +847,10 @@ img{
 .map-btm {
     padding-top: 30px;
 }
-.map-btm {
-    padding-top: 30px;
-}
+
  .border-right,
  .border-left {
     position: relative;
-    padding-right: 15px;
 }
 
 .content-h{
@@ -901,4 +898,17 @@ img{
 }
 .numbering{
     padding-bottom: 30px;;
+}
+.number-content p {
+    margin: 0;
+    margin-top: 30px;
+    font-family: 'PlantinMTPro-Regular';
+    font-size: 38px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.number-content p:last-child{
+    font-size: 25px;
+    line-height: 30px;
 }
