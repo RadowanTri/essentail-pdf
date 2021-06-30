@@ -825,3 +825,80 @@ img{
 /* .day-1 .day-content-map-heading h2 {
     font-size: 3.5rem;
 } */
+/* radowan */
+.top-header  h3{
+    font-size: 50px;
+    line-height: 60px;
+    color: #303030;
+    font-family: 'PlantinMTPro-Regular';
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #d8d8d8;
+
+}
+
+
+.map-btm img {
+    height: 100%;
+    object-fit: fill;
+    width: 100%;
+}
+.map-btm {
+    padding-top: 30px;
+}
+.map-btm {
+    padding-top: 30px;
+}
+ .border-right,
+ .border-left {
+    position: relative;
+    padding-right: 15px;
+}
+
+.content-h{
+    height: calc(1289pt - 90px - 60px - 60px);
+}
+.v-height .border-right:after,
+.v-height .border-left:after {
+    position: absolute;
+    content: "";
+    left: -15px;
+    width: 1px;
+    height: calc(1289pt - 90px - 60px - 60px);
+    background: #d8d8d8;
+    top: 0;
+}
+.v-height .border-right:after{
+    right: -15px;
+    left:auto
+ 
+}
+.numbering span {
+    color: #F4F4F4;
+    position: relative;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'UniversLTStd';
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.numbering span:after{
+    content: "";
+    position: absolute;
+    left:0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background:#303030;
+    z-index: -1;
+
+}
+.numbering{
+    padding-bottom: 30px;;
+}
