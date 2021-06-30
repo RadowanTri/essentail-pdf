@@ -833,7 +833,7 @@ img{
     font-family: 'PlantinMTPro-Regular';
     font-weight: 400;
     letter-spacing: 1.5px;
-    padding-bottom: 50px;
+    padding-bottom: 76px;
     border-bottom: 1px solid #d8d8d8;
 
 }
@@ -851,10 +851,19 @@ img{
  .border-right,
  .border-left {
     position: relative;
-}
+    padding: 0px 15px;
 
+}
+.content-right-border {
+    border-right: 1px solid #d5d5d5;
+    padding-right: 30px;
+}
+.content-left-border {
+    border-left: 1px solid #d5d5d5;
+    padding-left: 30px;
+}
 .content-h{
-    height: calc(1289pt - 90px - 60px - 60px);
+    height: calc(1265pt - 90px - 60px - 60px);
 }
 .v-height .border-right:after,
 .v-height .border-left:after {
@@ -862,7 +871,7 @@ img{
     content: "";
     left: -15px;
     width: 1px;
-    height: calc(1289pt - 90px - 60px - 60px);
+    height: calc(1265pt - 90px - 60px - 60px);
     background: #d8d8d8;
     top: 0;
 }
@@ -914,4 +923,63 @@ img{
     font-size: 32px;
     line-height: 40px;
     margin-top: 10px;
+}
+.border-t{
+    border-top: 1px solid #d8d8d8;
+    padding-top: 15px;
+}
+.trip-wrapper{
+    background-color: #f4f4f4;
+    position: relative;
+    height: 100%;
+}
+.trip-wrapper-content{
+    padding: 15px;
+}
+.trip-content-lt p {
+    font-family: 'UniversLTStd';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #303030;
+}
+.trip-content-lt h4 {
+     font-family: 'UniversLTStd';
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 6px;
+    margin-top: 15px;
+    font-weight: normal;
+    line-height: 55px;
+    margin-bottom: 0;
+    color: #303030;
+}
+
+.trip-content-lt h3 {
+    font-family: 'PlantinMTPro-Regular';
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 45px;
+    margin-bottom: 0;
+    color: #303030;
+}
+.trip-content-lt h3 a{
+    color: #303030;
+}
+.pt-15{
+    padding-top: 15px;
+}
+.pb-15{
+    padding-bottom: 15px;
+}
+.pb-40{
+    padding-bottom: 40px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.mb-25{
+    margin-bottom: 30px;
 }
