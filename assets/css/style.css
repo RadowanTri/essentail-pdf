@@ -956,7 +956,12 @@ img{
     margin-bottom: 0;
     color: #303030;
 }
-
+.trip-content-lt h4.date {
+    text-transform: inherit;
+    letter-spacing: 0px;
+    font-size: 35px;
+    line-height: 45px;
+}
 .trip-content-lt h3 {
     font-family: 'PlantinMTPro-Regular';
     font-size: 30px;
@@ -965,8 +970,10 @@ img{
     margin-bottom: 0;
     color: #303030;
 }
+
 .trip-content-lt h3 a{
     color: #303030;
+    text-decoration: none;
 }
 .pt-15{
     padding-top: 15px;
