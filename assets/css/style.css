@@ -883,6 +883,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 15px;
 }
 .numbering span:after{
     content: "";
@@ -897,9 +898,12 @@ img{
 
 }
 
+.numbering{
+    padding-bottom: 30px;
+}
+
 .number-content p {
     margin: 0;
-    margin-top: 30px;
     font-family: 'PlantinMTPro-Regular';
     font-size: 40px;
     line-height: 55px;
@@ -907,6 +911,7 @@ img{
 }
 
 .number-content p:last-child{
-    font-size: 30px;
+    font-size: 32px;
     line-height: 40px;
+    margin-top: 10px;
 }
