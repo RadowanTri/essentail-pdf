@@ -988,7 +988,7 @@ img{
     padding-bottom: 20px;
 }
 .mb-25{
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 /* .pdf-2 .trip-wrapper-content {
     padding: 15px 15px 15px 0px;
@@ -1019,7 +1019,7 @@ img{
 
 }
 .h-180 {
-    min-height: 180px;
+    min-height: 165px;
 }
 .flights-text p:nth-child(1){
     font-family: 'UniversLTStd-Bold';
@@ -1125,4 +1125,7 @@ img{
 
 .trip-content-lt {
     position: relative;
+}
+.border-b{
+     border-bottom: 1px solid #d8d8d8;
 }
