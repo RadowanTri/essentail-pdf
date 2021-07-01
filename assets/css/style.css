@@ -863,19 +863,19 @@ img{
     padding-left: 30px;
 }
 .content-h{
-    height: calc(1265pt - 90px - 60px - 60px);
+    height: calc(1263pt - 60px);
 }
-.v-height .border-right:after,
-.v-height .border-left:after {
+.pdf-2 .border-right:after,
+.pdf-2 .border-left:after {
     position: absolute;
     content: "";
     left: -15px;
     width: 1px;
-    height: calc(1265pt - 90px - 60px - 60px);
+    height: calc(1173pt - 60px);
     background: #d8d8d8;
-    top: 0;
+    top: 15px;
 }
-.v-height .border-right:after{
+.pdf-2 .border-right:after{
     right: -15px;
     left:auto
  
@@ -940,7 +940,7 @@ img{
     font-family: 'UniversLTStd';
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 26px;
+    font-size: 25px;
     margin-top: 0;
     margin-bottom: 0;
     color: #303030;
@@ -989,4 +989,145 @@ img{
 }
 .mb-25{
     margin-bottom: 30px;
+}
+/* .pdf-2 .trip-wrapper-content {
+    padding: 15px 15px 15px 0px;
+} */
+.pdf-2 .border-l,
+.pdf-2 .border-r {
+    position: relative;
+    padding: 0px 0px;
+}
+.pdf-2 .border-right,
+.pdf-2.border-left {
+    position: relative;
+    padding: 0px 0px;
+}
+.date-content-col {
+   height: calc(1158pt - 60px);
+}
+.t-center{
+    text-align: center;
+}
+
+.trip-content-lt.t-center h4 {
+    font-family: 'UniversLTStd';
+    text-transform: uppercase;
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin-top: 0px;
+
+}
+.h-180 {
+    min-height: 180px;
+}
+.flights-text p:nth-child(1){
+    font-family: 'UniversLTStd-Bold';
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.flights-text p:nth-child(2) {
+    font-family: 'UniversLTStd';
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.date-content-flex {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.trip-content-lt .date-content-flex h4 {
+    font-family: 'UniversLTStd';
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 6px;
+    margin-top: 15px;
+    font-weight: normal;
+    line-height: 55px;
+    margin-bottom: 0;
+    color: #303030;
+}
+.first-1{
+    color:#AAAAAA !important;
+     font-family: 'PlantinMTPro-Regular';
+     text-transform: unset !important;
+}
+.price p {
+    font-family: 'PlantinMTPro-Regular' !important;
+    padding-bottom: 5PX;
+}
+.fee p {
+    font-family: 'PlantinMTPro-Italic' !important;
+    font-size: 25px;
+}
+
+.trip-content-lt p {
+    font-family: 'UniversLTStd';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 25px;
+    line-height: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #303030;
+}
+
+.trip-content-lt > p {
+    line-height: 30px;
+        font-family: 'UniversLTStd-Bold';
+
+}
+.trevel{
+     font-family: 'UniversLTStd';
+     line-height: 38px;
+}
+.trip-content-duration:before {
+    position: absolute;
+    content: "";
+    background-image: url(../img/au.svg);
+    width: 65px;
+    height: 65px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: -3px;
+    left: 0;
+}
+.trip-content-duration {
+    width: 100%;
+    position: relative;
+    padding-left: 70px;
+}
+.trip-content-duration p{
+    font-family: 'PlantinMTPro-Regular' !important;
+    text-transform: unset;
+    font-size: 30px;
+    line-height: 38px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #303030;
+}
+.trip-content-duration .std{
+    font-family: 'UniversLTStd' !important;
+    
+}
+.trip-content-duration .italic {
+    font-family: 'PlantinMTPro-Italic' !important;
+    
+}
+.pl-25{
+    padding-left: 25px;
+}
+.trip-content-duration td{
+    font-family: 'PlantinMTPro-Regular';
+    text-transform: unset;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.trip-content-duration td:last-child{
+    color: #AAAAAA;
+    padding-left: 10px;
 }
