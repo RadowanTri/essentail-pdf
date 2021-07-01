@@ -1051,8 +1051,9 @@ img{
 }
 .first-1{
     color:#AAAAAA !important;
-     font-family: 'PlantinMTPro-Regular';
      text-transform: unset !important;
+     font-size: 25px !important;
+     line-height: 35px;
 }
 .price p {
     font-family: 'PlantinMTPro-Regular' !important;
@@ -1063,16 +1064,7 @@ img{
     font-size: 25px;
 }
 
-.trip-content-lt p {
-    font-family: 'UniversLTStd';
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 25px;
-    line-height: 35px;
-    margin-top: 0;
-    margin-bottom: 0;
-    color: #303030;
-}
+
 
 .trip-content-lt > p {
     line-height: 30px;
