@@ -1095,7 +1095,6 @@ img{
     left: 0;
 }
 .trip-content-duration {
-    width: 100%;
     position: relative;
     padding-left: 70px;
 }
@@ -1130,4 +1129,8 @@ img{
 .trip-content-duration td:last-child{
     color: #AAAAAA;
     padding-left: 10px;
+}
+
+.trip-content-lt {
+    position: relative;
 }
