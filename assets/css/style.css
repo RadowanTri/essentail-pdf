@@ -878,7 +878,19 @@ img{
 .pdf-2 .border-right:after{
     right: -15px;
     left:auto
- 
+}
+.pdf-2 .border-right-1{
+    position: relative;
+}
+
+.pdf-2 .border-right-1:after {
+    position: absolute;
+    content: "";
+    right: -15px;
+    width: 1px;
+    background: #d8d8d8;
+    top: 15px;
+    height: calc(968pt - 60px);
 }
 .numbering span {
     color: #F4F4F4;
@@ -1039,7 +1051,7 @@ img{
     justify-content: space-between;
 }
 .date-content-flex>div>p:nth-child(1) {
-    padding-top: 15px;
+    padding-top: 10px;
 }
 .trip-content-lt .date-content-flex h4 {
     font-family: 'UniversLTStd';
@@ -1055,20 +1067,24 @@ img{
 #airports .first-1{
     color:#AAAAAA !important;
      text-transform: unset !important;
+     letter-spacing: 0px;
      font-size: 25px;
      line-height: 35px;
 }
 .price p {
     font-family: 'PlantinMTPro-Regular' !important;
-    padding-bottom: 5PX;
+    /* padding-bottom: 5PX; */
+    line-height: 35px;
+    letter-spacing: 0px;
 }
 .fee p {
     font-family: 'PlantinMTPro-Italic' !important;
+    text-transform: unset;
 }
 
 .travel{
      font-family: 'UniversLTStd-Bold' !important;
-     /* line-height: 40px; */
+       line-height: 35px;
 }
 .trip-content-duration:before,
 .trip-content-duration.img-2:before {
