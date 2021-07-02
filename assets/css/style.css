@@ -863,7 +863,7 @@ img{
     padding-left: 30px;
 }
 .content-h{
-    height: calc(1263pt - 60px);
+    height: calc(1163pt - 60px);
 }
 .pdf-2 .border-right:after,
 .pdf-2 .border-left:after {
@@ -978,6 +978,9 @@ img{
 .pt-15{
     padding-top: 15px;
 }
+.pt-30{
+    padding-top: 30px;
+}
 .pb-15{
     padding-bottom: 15px;
 }
@@ -1005,6 +1008,7 @@ img{
 }
 .date-content-col {
    height: calc(1158pt - 60px);
+   position: relative;
 }
 .t-center{
     text-align: center;
@@ -1023,20 +1027,19 @@ img{
 }
 .flights-text p:nth-child(1){
     font-family: 'UniversLTStd-Bold';
-    text-transform: uppercase;
-    font-size: 32px;
-    margin-bottom: 10px;
+    line-height: 40px;
+    
 }
 .flights-text p:nth-child(2) {
     font-family: 'UniversLTStd';
-    text-transform: uppercase;
-    font-size: 30px;
-    margin-bottom: 10px;
 }
 .date-content-flex {
     display: flex;
-    align-items: baseline;
+    /* align-items: baseline; */
     justify-content: space-between;
+}
+.date-content-flex>div>p:nth-child(1) {
+    padding-top: 15px;
 }
 .trip-content-lt .date-content-flex h4 {
     font-family: 'UniversLTStd';
@@ -1049,10 +1052,10 @@ img{
     margin-bottom: 0;
     color: #303030;
 }
-.first-1{
+#airports .first-1{
     color:#AAAAAA !important;
      text-transform: unset !important;
-     font-size: 25px !important;
+     font-size: 25px;
      line-height: 35px;
 }
 .price p {
@@ -1061,21 +1064,14 @@ img{
 }
 .fee p {
     font-family: 'PlantinMTPro-Italic' !important;
-    font-size: 25px;
 }
 
-
-
-.trip-content-lt > p {
-    line-height: 30px;
-        font-family: 'UniversLTStd-Bold';
-
+.travel{
+     font-family: 'UniversLTStd-Bold' !important;
+     line-height: 40px;
 }
-.trevel{
-     font-family: 'UniversLTStd';
-     line-height: 38px;
-}
-.trip-content-duration:before {
+.trip-content-duration:before,
+.trip-content-duration.img-2:before {
     position: absolute;
     content: "";
     background-image: url(../img/au.svg);
@@ -1085,6 +1081,10 @@ img{
     background-repeat: no-repeat;
     top: -3px;
     left: 0;
+}
+.trip-content-duration.img-2:before {
+    background-image: url(../img/au1.svg);
+ 
 }
 .trip-content-duration {
     position: relative;
@@ -1114,7 +1114,7 @@ img{
     font-family: 'PlantinMTPro-Regular';
     text-transform: unset;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 28px;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1128,4 +1128,10 @@ img{
 }
 .border-b{
      border-bottom: 1px solid #d8d8d8;
+}
+.trip-wrapper-content .hotel-content-lb>div:last-child:after {
+    background: none;
+}
+#airports .price p {
+    text-transform: unset;
 }
