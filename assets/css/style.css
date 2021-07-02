@@ -944,8 +944,10 @@ img{
     background-color: #f4f4f4;
     position: relative;
     height: 100%;
-    padding: 15px;
     margin-right: 15px;
+}
+.trip-wrapper-content-left {
+    padding: 15px;
 }
 .top-header {
     padding-left: 15px;
@@ -963,7 +965,6 @@ img{
     letter-spacing: 2px;
     font-size: 25px;
     margin-top: 0;
-    margin-bottom: 0;
     color: #303030;
 }
 .trip-content-lt h4 {
@@ -971,7 +972,6 @@ img{
     text-transform: uppercase;
     font-size: 40px;
     letter-spacing: 6px;
-    margin-top: 15px;
     font-weight: normal;
     line-height: 55px;
     margin-bottom: 0;
@@ -980,8 +980,8 @@ img{
 .trip-content-lt h4.date {
     text-transform: inherit;
     letter-spacing: 0px;
-    font-size: 35px;
-    line-height: 45px;
+    font-size: 28px;
+    line-height: 40px;
 }
 .trip-content-lt h3 {
     font-family: 'PlantinMTPro-Regular';
@@ -1004,18 +1004,24 @@ img{
     padding-top: 30px;
 }
 .pb-15{
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 .pb-40{
     padding-bottom: 40px;
 }
+
+.pb-10 {
+    padding-bottom: 10px;
+}
 .pb-20{
     padding-bottom: 20px;
 }
-.mb-25{
+.mb-25 {
     margin-bottom: 25px;
 }
-
+.mb-10 {
+    margin-bottom: 10px;
+}
 .pdf-2 .border-l,
 .pdf-2 .border-r {
     position: relative;
@@ -1088,6 +1094,7 @@ img{
     /* padding-bottom: 5PX; */
     line-height: 35px;
     letter-spacing: 0px;
+    word-break: break-all;
 }
 .fee p {
     font-family: 'PlantinMTPro-Italic' !important;
@@ -1095,15 +1102,14 @@ img{
 }
 
 .travel1,
-.confirm-number .travel{
+.confirm-number .travel,
+.travel {
        font-weight: normal;
        font-family: 'UniversLTStd-Bold' !important;
        line-height: 35px;
 }
 .travel {
-    font-family: 'UniversLTStd-Bold' !important;
     font-weight: bold;
-    line-height: 35px;
 
 }
 .trip-content-duration:before,
@@ -1149,7 +1155,7 @@ img{
 .trip-content-duration td{
     font-family: 'PlantinMTPro-Regular';
     text-transform: unset;
-    font-size: 20px;
+    font-size: 21px;
     line-height: 28px;
 }
 .trip-content-duration td:last-child{
@@ -1171,4 +1177,10 @@ img{
 }
 .mt-80{
     margin-top: 80px;
+}
+.border-right-1{
+    padding-right: 15px;
+}
+.border-right-2 {
+    padding-left: 15px;
 }
