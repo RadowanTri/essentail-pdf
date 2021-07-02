@@ -1035,6 +1035,7 @@ img{
 .h-180 {
     min-height: 150px;
 }
+
 .flights-text p:nth-child(1){
     font-family: 'UniversLTStd-Bold';
     line-height: 40px;
@@ -1148,4 +1149,7 @@ img{
 }
 #airports .price p {
     text-transform: unset;
+}
+.mt-80{
+    margin-top: 80px;
 }
