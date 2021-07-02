@@ -982,7 +982,8 @@ img{
     color: #303030;
 }
 
-.trip-content-lt h3 a{
+.trip-content-lt h3 a,
+.trip-content-lt  a{
     color: #303030;
     text-decoration: none;
 }
