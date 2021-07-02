@@ -852,7 +852,6 @@ img{
  .border-left {
     position: relative;
     padding: 0px 15px;
-
 }
 .content-right-border {
     border-right: 1px solid #d5d5d5;
@@ -882,7 +881,6 @@ img{
 .pdf-2 .border-right-1{
     position: relative;
 }
-
 .pdf-2 .border-right-1:after {
     position: absolute;
     content: "";
