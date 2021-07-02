@@ -1005,9 +1005,7 @@ img{
 .mb-25{
     margin-bottom: 25px;
 }
-/* .pdf-2 .trip-wrapper-content {
-    padding: 15px 15px 15px 0px;
-} */
+
 .pdf-2 .border-l,
 .pdf-2 .border-r {
     position: relative;
@@ -1135,8 +1133,6 @@ img{
     text-transform: unset;
     font-size: 20px;
     line-height: 28px;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 .trip-content-duration td:last-child{
     color: #AAAAAA;
