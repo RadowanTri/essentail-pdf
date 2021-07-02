@@ -1068,7 +1068,7 @@ img{
 
 .travel{
      font-family: 'UniversLTStd-Bold' !important;
-     line-height: 40px;
+     /* line-height: 40px; */
 }
 .trip-content-duration:before,
 .trip-content-duration.img-2:before {
