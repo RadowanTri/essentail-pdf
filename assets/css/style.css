@@ -865,7 +865,6 @@ img{
     height: calc(1163pt - 60px);
 }
 .pdf-2 .border-right:after,
-.pdf-2 .condition .border-right:after,
 .pdf-2 .border-left:after {
     position: absolute;
     content: "";
