@@ -851,7 +851,7 @@ img{
  .border-right,
  .border-left {
     position: relative;
-    padding: 0px 15px;
+    /* padding: 0px 15px; */
 }
 .content-right-border {
     border-right: 1px solid #d5d5d5;
@@ -865,6 +865,7 @@ img{
     height: calc(1163pt - 60px);
 }
 .pdf-2 .border-right:after,
+.pdf-2 .condition .border-right:after,
 .pdf-2 .border-left:after {
     position: absolute;
     content: "";
@@ -943,8 +944,9 @@ img{
     position: relative;
     height: 100%;
 }
-.trip-wrapper-content{
-    padding: 15px;
+
+.trip-wrapper-content {
+    padding: 0px 15px 15px 0px;
 }
 .trip-content-lt p {
     font-family: 'UniversLTStd';
@@ -976,7 +978,7 @@ img{
     font-family: 'PlantinMTPro-Regular';
     font-size: 30px;
     font-weight: normal;
-    line-height: 45px;
+    line-height: 40px;
     margin-bottom: 0;
     color: #303030;
 }
@@ -1034,6 +1036,9 @@ img{
 }
 .h-180 {
     min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .flights-text p:nth-child(1){
