@@ -1005,13 +1005,11 @@ img {
     font-family: 'UniversLTStd';
     text-transform: uppercase;
     letter-spacing: 2.5px;
-    font-weight: bold;
+    font-weight: normal;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 4px;
 }
-.confirmation-ex-left h4 {
-    margin-bottom: 5px;
-}
+
 
 .confirmation-ex-left-top h4 {
     font-family: 'UniversLTStd';
@@ -1477,14 +1475,15 @@ img {
 }
 .pt-10{
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
-.experience .border-l {
-    padding-left: 0px;
-}
+
 .experience .day-content p{
     margin-top: 20px;
 }
 .experience .day-content-map-heading {
     margin-bottom: 0px;
+}
+ .hotel-content-lt.margin-bgi h3 {
+    margin-bottom: 15px;
 }
