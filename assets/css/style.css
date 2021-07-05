@@ -853,7 +853,7 @@ img {
     margin: 0;
     font-family: 'PlantinMTPro-Regular';
     font-weight: normal;
-    font-size: 27px;
+    font-size: 28px;
 }
 
 
@@ -1484,6 +1484,9 @@ img {
 .experience .day-content-map-heading {
     margin-bottom: 0px;
 }
-.margin-b h3 {
+.resorts-hadding h3 {
     margin-bottom: 15px ;
+}
+.resorts-hadding h4 {
+    margin-top: 0px;
 }
