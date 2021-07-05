@@ -1479,12 +1479,12 @@ img {
     padding-top: 15px;
     padding-bottom: 10px;
 }
-.day-content-col.experience.border-l {
+.experience .border-l {
     padding-left: 0px;
 }
-.day-content-col.experience .day-content p{
+.experience .day-content p{
     margin-top: 20px;
 }
-.day-content-col.experience .day-content-map-heading {
+.experience .day-content-map-heading {
     margin-bottom: 0px;
 }
